@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <ul >
+        <div class="dropdown">
+            <button class="open" class="dropbtn" >&#9776;</button>
+            <div class="dropdown-content">
+                <a href="#About">About</a>
+                <a href="#My_Skills">My Skills</a>
+                <a href="#Works">Works</a>
+                <a href="#Contacts">Contacts</a>
+              </div>
+            </div>
+        <li ><a href="#About">About</a></li>
+        <li><a href="#My_Skills">My Skills</a></li>
+        <li><a href="#Works">Works</a></li>
+        <li><a href="#Contacts">Contacts</a></li>
+    </ul>
+    </header>
+    <p id="About" class="start">Hello, </p>
+    <p class="start">I'm Ismail</p>
+    <p class="aboutme">About me: </p>
+    <p class="me">Probably, like many others, my path in IT began with self-education.</p>
+    <p class="me">Free lectures, master classes and courses with homework helped get</p>
+    <p class="me">primary knowledge and gave determination for the next step immersion</p>
+    <p class="me">in the field of full-stack development already in  complex paid classes.</p>
+
+
+    <p id="My_Skills"  class="aboutme">My skills: </p>
+    <p class="me">This is a list of my certifications and</p>
+    <p class="me">programming languages ​​that I know.</p>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/1.img.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/2.img.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/3.img.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+    <h1 style="text-align:center">Programming languages ​​that I know.</h1>
+    
+    <div class="card">
+      <img src="img/3.html"  style="width:100%">
+      <p class="language">Some informations about HTML</p>
+      <p> HTML—is a standardized hypertext markup language for viewing web pages in a browser.The HTML hypertext markup language was developed by British scientist Tim Berners-Lee around 1986-1991.</p>
+    </div>
+
+    <div class="card">
+        <img src="img/3.css"  style="width:100%">
+        <p class="language">Some informations about CSS</p>
+        <p> CSS—is a formal language for describing the appearance of a document written using a markup language. It can also be applied to any XML document, such as SVG or XUL.</p>
+      </div>
+
+      <div class="card">
+        <img src="img/3.python.png"  style="width:100%">
+        <p class="language">Some informations about PYTHON</p>
+        <p>Python—is a high-level, general-purpose programming language with dynamic strong typing and automatic memory management, focused on improving developer productivity, code readability and quality, and ensuring the portability of programs written in it.</p>
+      </div>
+
+      <div class="card">
+        <img src="img/1.javascript.avif"  style="width:100%">
+        <p class="language">Some informations about JavaScript</p>
+        <p>JavaScript—is a multi-paradigm programming language. Supports object-oriented, imperative and functional styles. It is an implementation of the ECMAScript specification. JavaScript is commonly used as an embeddable language for programmatic access to application objects.</p>
+      </div>
+
+      <p id="Works"  class="aboutme">My works:</p>
+      <p class="me">This is a list of my works.</p>
+      <div class="card">
+        <iframe src="https://ismayil2009.github.io/Portfol/" height="560px" width="560px" padding="15px"></iframe>
+      </div>
+      <div class="card">
+        <iframe src="https://ismayil2009.github.io/Oboi/indx.2.html" height="560px" width="560px"></iframe>
+      </div>
+
+
+
+    <p id="Contacts"  class="aboutme">My contacts:</p>
+    <p class="me">This is my contacts.</p>
+      <div class="social">
+        <a class="social__icon instagram">
+          <i class="fab fa-instagram"></i>
+          <a class="instagram" href="https://www.instagram.com/" target="_blank">Instagram</a>
+        </a>
+        <a class="social__icon facebook">
+          <i class="fab fa-facebook-f"></i>
+          <a class="facebook" href="https://www.facebook.com/" target="_blank">Facebook</a>
+        </a>
+        <a class="social__icon git">
+          <i class="fab fa-github"></i>
+          <a class="github" href="https://github.com/StacyMch/online_shop" target="_blank">GitHub</a>
+        </a>
+        <a class="social__icon twitter">
+          <i class="fab fa-twitter"></i>
+          <a class="twitter" href="https://twitter.com/home?lang=ru" target="_blank">Twitter</a>
+        </a>
+        <a class="social__icon linkedin">
+          <i class="fab fa-linkedin-in"></i>
+          <a class="youtube" href="https://www.youtube.com/" target="_blank">YouTube</a>
+        </a>
+      </div>
+    </body>
+<style>
+    .social{
+    width: 100%;
+    height: 15vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    }
+
+    .social__icon{
+    text-decoration: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #00000080;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow:hidden;
+    }
+
+    .social__icon i {
+    font-size: 26px;
+    color: #67798e;
+    transition: all 0.3s ease;
+    z-index: 1;
+    }
+
+    .social__icon:after{
+    content: "";
+    width: 70px;
+    height: 70px;
+    position:absolute;
+    transform: translate(0, 70px);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    }
+
+    .social__icon.instagram:after{
+    background-color: #833AB4;
+    }
+    .instagram{
+        color: #833AB4;
+        text-decoration: none;
+        font-size: 19px;
+    }
+
+
+    .social__icon.facebook:after{
+    background-color: #3b5998;
+    }
+    .facebook{
+        color: #3b5998;
+        text-decoration: none;
+        font-size: 19px;
+    }
+
+
+    .social__icon.git:after{
+    background-color: #333;
+    }
+    .github{
+        color: #333;
+        text-decoration: none;
+        font-size: 19px;
+    }
+
+
+    .social__icon.twitter:after{
+    background-color: #00acee;
+    }
+    .twitter{
+        color: #00acee;
+        text-decoration: none;
+        font-size: 19px;
+    }
+
+
+    .social__icon.linkedin:after{
+    background-color: #a80e0e;
+    }
+    .youtube{
+        color: #a80e0e;
+        text-decoration: none;
+        font-size: 19px;
+    }
+
+
+    .social__icon:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 0px 15px #00000080;
+    }
+
+    .social__icon:hover i{
+    color: #fff;
+    }
+
+    .social__icon:hover:after{
+    transform: translate(0);
+    }
+
+    .card {
+      background-color: #afaeae;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+      max-width: 450px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+    }
+    
+    .language {
+      color: grey;
+      font-size: 22px;
+    }
+    
+    body{
+        font-family: Georgia, serif;
+        background-color: #c5c6c7;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    ul{
+        top: 0;
+        box-shadow: 0 4px 10px rgba(0 , 0 ,0 , .2);
+        display:flex;
+        background-color: #9b9a9a;
+        margin: 0;
+        padding: 0;
+        height: 50px;
+    }
+
+    ul li{
+        list-style: none;
+        line-height: 50px;
+    }
+
+    ul li a{
+        color:black;
+        text-decoration: none;
+        padding:0 20px;
+        font-size: 22px;
+    }
+
+    ul li:hover{
+        background-color:#9a9b9b;
+    }
+
+    .open{
+        padding-left: 5px;
+        padding: 5px;
+        color: #4b4b4b;
+        display: inline-block;
+        cursor: pointer;
+        font-size: 27.5px;
+    }
+
+    .start{
+        color: black;
+        font-size: 100px;
+        height: 10px;
+    }
+
+    .aboutme{
+        color: black;
+        font-size: 65px;
+        height: 10px;
+    }
+
+    .me{
+        color: black;
+        font-size: 25px;
+        height: 10px;
+    }
+
+    .img{
+        width:27%;
+        box-shadow: 0 4px 10px rgba(0 , 0 ,0 , .4);
+    }
+
+    .dropbtn {
+        color: #4b4b4b;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #9a9b9b;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(#c5c6c7);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .slideshow-container {
+      max-width: 920px;
+      position: relative;
+      margin: auto;
+      }
+  
+      .mySlides {
+          display: none;
+      }
+  
+      .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: rgb(60, 60, 60);
+      font-weight: bold;
+      font-size: 35px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      }
+  
+      .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      }
+  
+      .prev:hover, .next:hover {
+      background-color: white(255, 255, 255, 0.8);
+      }
+  
+      .text {
+      color: #1d1717;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+      }
+  
+      .numbertext {
+      color: #343333;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      }
+  
+      .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      }
+  
+      .active, .dot:hover {
+      background-color: #717171;
+      }
+  
+      .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+      }
+  
+      @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+      }
+  
+      @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+      }
+
+</style>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    }
+</script>
