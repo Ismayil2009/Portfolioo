@@ -251,6 +251,7 @@
     body{
         font-family: Georgia, serif;
         background-color: #c5c6c7;
+        text-align: center;
     }
 
     html{
@@ -307,7 +308,6 @@
     .me{
         color: black;
         font-size: 25px;
-        height: 10px;
     }
 
     .img{
@@ -429,7 +429,41 @@
       from {opacity: .4}
       to {opacity: 1}
       }
+      
+      @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+      }
+  
+      @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+      }
 
+
+      @media(max-width:500px){
+
+      div{
+          width: 100%;
+      }
+
+      div:hover{
+          transform:none;
+      }
+
+      body div:first-child a{
+          display: block;
+          text-aling:center;
+      }
+
+      .desktop{
+          display: none;
+      }
+
+      .mobile{
+          display: block;
+      }
+      }
 </style>
 
 <script>
